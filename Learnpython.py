@@ -4,7 +4,14 @@ print("Hello, welcome to NetworkChuck Coffee!!!")
 
 name = input("What is your name?\n")
 
-print("Hello " + name + " ,thank you so much for coming in today!\n\n\n")
+
+if name == "Ben":
+    print("You're not welcome here Evil Ben!! Get out!!")
+    exit()
+else:
+    print("Hello " + name + " ,thank you so much for coming in today!\n\n\n")
+
+
 
 menu = "Black Coffee, Espresso, Latte, Cappuccino"
 
