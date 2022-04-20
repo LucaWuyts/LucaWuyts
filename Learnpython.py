@@ -1,13 +1,3 @@
-
-#Les 1
-#print ("Hello World!!!!")
-#print ('I am Iron Man')
-#print ("No, I'm Tony Stark")
-#print ("No, I am Poppy")
-#We are practicing Python ... IT'S AWESOME!
-#print ("I am Iron Man.\n" + "No, I am Tony Stark.\n" + "No, I am Poppy."  )
-#print("I am Poppy\n" * 100)
-
 #Let's build a robot Barista!!
 
 print("Hello, welcome to NetworkChuck Coffee!!!")
@@ -22,4 +12,12 @@ print(name + " ,what would you like from our menu today? Here is what we are ser
 
 order = input()
 
-print("Sounds good " + name + " ,we'll have that " + order + " ready for you in a moment.")
+price = 8
+
+quantity = input("How many coffees would you like?\n")
+
+total = price * int(quantity)
+
+print("Thank you. Your total is: $" + str(total))
+
+print("Sounds good " + name + " ,we'll have your " + quantity + " " + order + " ready for you in a moment.")

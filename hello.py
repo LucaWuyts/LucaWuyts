@@ -1,5 +1,5 @@
-leeftijd_luca = 17
+leeftijd_luca = 19
 
-leeftijd_liam = 17-2
+leeftijd_liam = leeftijd_luca - 2
 
 print (leeftijd_liam)
